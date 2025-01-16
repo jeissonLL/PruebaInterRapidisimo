@@ -1,0 +1,17 @@
+C:\EventManagement\Infraestructure\bin\Debug\net8.0\Infraestructure.deps.json
+C:\EventManagement\Infraestructure\bin\Debug\net8.0\Infraestructure.runtimeconfig.json
+C:\EventManagement\Infraestructure\bin\Debug\net8.0\Infraestructure.dll
+C:\EventManagement\Infraestructure\bin\Debug\net8.0\Infraestructure.pdb
+C:\EventManagement\Infraestructure\bin\Debug\net8.0\Domain.dll
+C:\EventManagement\Infraestructure\bin\Debug\net8.0\Domain.pdb
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\Infraestructure.csproj.AssemblyReference.cache
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\Infraestructure.AssemblyInfoInputs.cache
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\Infraestructure.AssemblyInfo.cs
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\Infraestructure.csproj.CoreCompileInputs.cache
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\Infraest.B0D41582.Up2Date
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\Infraestructure.dll
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\refint\Infraestructure.dll
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\Infraestructure.pdb
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\Infraestructure.genruntimeconfig.cache
+C:\EventManagement\Infraestructure\obj\Debug\net8.0\ref\Infraestructure.dll
