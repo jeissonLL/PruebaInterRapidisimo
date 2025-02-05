@@ -20,5 +20,7 @@ namespace Application.DTO
         public string Location { get; set; }
 
         public int MaxCapacity { get; set; }
+
+        public int CreatedByUserId { get; set; }
     }
 }

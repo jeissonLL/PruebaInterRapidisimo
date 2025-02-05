@@ -7,6 +7,8 @@ using AutoMapper;
 using Application.Mappings;
 using Application.Events.Command;
 using Application.EventUser.Command;
+using Application.Services.Interfaces;
+using Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,8 +29,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString!));
 
 // Register MediatR and scan for handlers in the assembly
-builder.Services.AddMediatR(typeof(CreateUserCommand).Assembly);
+builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddMediatR(typeof(CreateEventCommand).Assembly);
+builder.Services.AddMediatR(typeof(CreateUserCommand).Assembly);
 builder.Services.AddMediatR(typeof(CreateEventUserCommand).Assembly);
 builder.Services.AddMediatR(typeof(LoginCommand).Assembly);
 

@@ -15,7 +15,7 @@ namespace Infraestructure.Persistence
         {
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
 
-            optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS; DataBase=EventManagemetDB; Integrated Security=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=(localdb)\\SQLEXPRESS; DataBase=EventManagemetDB; Integrated Security=True;TrustServerCertificate=True;");
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }

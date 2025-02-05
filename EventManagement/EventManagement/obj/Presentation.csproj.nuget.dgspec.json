@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\EventManagement\\EventManagement\\Presentation.csproj": {}
+    "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Presentation.csproj": {}
   },
   "projects": {
-    "C:\\EventManagement\\Application\\Application.csproj": {
+    "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EventManagement\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\EventManagement\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\EventManagement\\Application\\obj\\",
+        "projectPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\jeissonellaraveh\\.nuget\\packages\\",
+        "outputPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jeissonellaraveh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\EventManagement\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\EventManagement\\Domain\\Domain.csproj"
+              "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Domain.csproj"
               },
-              "C:\\EventManagement\\Infraestructure\\Infraestructure.csproj": {
-                "projectPath": "C:\\EventManagement\\Infraestructure\\Infraestructure.csproj"
+              "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Infraestructure.csproj": {
+                "projectPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Infraestructure.csproj"
               }
             }
           }
@@ -51,7 +50,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -98,24 +98,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\EventManagement\\Domain\\Domain.csproj": {
+    "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EventManagement\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\EventManagement\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\EventManagement\\Domain\\obj\\",
+        "projectPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\jeissonellaraveh\\.nuget\\packages\\",
+        "outputPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jeissonellaraveh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -124,7 +124,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -142,7 +141,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -189,24 +189,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\EventManagement\\EventManagement\\Presentation.csproj": {
+    "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EventManagement\\EventManagement\\Presentation.csproj",
+        "projectUniqueName": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\EventManagement\\EventManagement\\Presentation.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\EventManagement\\EventManagement\\obj\\",
+        "projectPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Presentation.csproj",
+        "packagesPath": "C:\\Users\\jeissonellaraveh\\.nuget\\packages\\",
+        "outputPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jeissonellaraveh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -215,21 +215,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\EventManagement\\Application\\Application.csproj": {
-                "projectPath": "C:\\EventManagement\\Application\\Application.csproj"
+              "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Application.csproj": {
+                "projectPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Application.csproj"
               },
-              "C:\\EventManagement\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\EventManagement\\Domain\\Domain.csproj"
+              "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Domain.csproj"
               },
-              "C:\\EventManagement\\Infraestructure\\Infraestructure.csproj": {
-                "projectPath": "C:\\EventManagement\\Infraestructure\\Infraestructure.csproj"
+              "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Infraestructure.csproj": {
+                "projectPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Infraestructure.csproj"
               }
             }
           }
@@ -243,7 +242,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -297,24 +297,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\EventManagement\\Infraestructure\\Infraestructure.csproj": {
+    "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\EventManagement\\Infraestructure\\Infraestructure.csproj",
+        "projectUniqueName": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Infraestructure.csproj",
         "projectName": "Infraestructure",
-        "projectPath": "C:\\EventManagement\\Infraestructure\\Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\EventManagement\\Infraestructure\\obj\\",
+        "projectPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\jeissonellaraveh\\.nuget\\packages\\",
+        "outputPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jeissonellaraveh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -323,15 +323,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\EventManagement\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\EventManagement\\Domain\\Domain.csproj"
+              "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Domain.csproj"
               }
             }
           }
@@ -345,7 +344,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -392,7 +392,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

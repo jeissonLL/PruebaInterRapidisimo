@@ -1,10 +1,6 @@
-﻿using Application.Users.Command;
-using Domain.Entities;
-using Infraestructure.Persistence;
+﻿using Application.DTO;
+using Application.Services.Interfaces;
 using MediatR;
-using System;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace Application.Events.Command
 {
@@ -18,23 +14,18 @@ namespace Application.Events.Command
 
     public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand, string>
     {
-        private readonly ApplicationDbContext _context;
+        
+        private readonly IEventRepository _eventRepository;
 
-        public CreateEventCommandHandler(ApplicationDbContext context)
+        public CreateEventCommandHandler(IEventRepository eventRepository)
         {
-            _context = context;
+            _eventRepository = eventRepository;
         }
 
         public async Task<string> Handle(CreateEventCommand request, CancellationToken cancellationToken)
         {
-            // Verificar si el usuario creador existe antes de crear el evento
-            var creatorExists = await _context.Users.FindAsync(request.CreatedByUserId);
-            if (creatorExists == null)
-            {
-                throw new ArgumentException("El usuario creador no existe.");
-            }
 
-            var events = new Event
+            var events = new EventDTO
             {
                 Name = request.Name,
                 Description = request.Description,
@@ -44,8 +35,7 @@ namespace Application.Events.Command
                 CreatedByUserId = request.CreatedByUserId
             };
 
-            _context.Add(events);
-            await _context.SaveChangesAsync(cancellationToken);
+            await _eventRepository.Add(events);
 
             return $"Evento creado con éxito: {events.Name}, ID: {events.EventId}";
         }
