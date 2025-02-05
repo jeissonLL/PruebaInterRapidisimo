@@ -305,7 +305,6 @@ C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\
 C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Presentation.props
 C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Presentation.props
 C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\staticwebassets.pack.json
-C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\Presenta.BC777DBE.Up2Date
 C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\Presentation.dll
 C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\refint\Presentation.dll
