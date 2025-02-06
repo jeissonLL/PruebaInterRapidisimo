@@ -16,11 +16,17 @@ namespace Presentation.Controllers
         }
 
         [HttpPost]
+        [Produces("application/json")]
         public async Task<IActionResult> CreateEvent([FromBody] CreateEventCommand command)
         {
-            await _mediator.Send(command);
+            var createdEvent = await _mediator.Send(command);
 
-            return Ok();
+            if (createdEvent == null)
+            {
+                return BadRequest(new { Message = "No se pudo crear el evento." });
+            }
+
+            return CreatedAtAction(nameof(GetBookingById), new { id = createdEvent.EventId }, createdEvent);
         }
 
         [HttpPut]

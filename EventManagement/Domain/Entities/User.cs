@@ -13,14 +13,14 @@ namespace Domain.Entities
         public int UserId { get; set; }
 
         [MaxLength(100)]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         [MaxLength(150)]
-        public string Email { get; set; }
+        public string Email { get; set; } = string.Empty;
 
-        public string Password { get; set; }
+        public string Password { get; set; } = string.Empty;
 
-        public DateTime RegistrationDate { get; set; }
+        public DateTime RegistrationDate { get; set; } 
 
     }
 }

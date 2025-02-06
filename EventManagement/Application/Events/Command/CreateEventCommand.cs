@@ -1,6 +1,8 @@
 ﻿using Application.DTO;
 using Application.Services.Interfaces;
 using MediatR;
+using Domain.Entities;
+
 
 namespace Application.Events.Command
 {
@@ -10,9 +12,9 @@ namespace Application.Events.Command
         DateTime DateTime,
         string Location,
         int MaxCapacity,
-        int CreatedByUserId) : IRequest<string>;
+        int CreatedByUserId) : IRequest<EventDTO>;
 
-    public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand, string>
+    public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand, EventDTO>
     {
         
         private readonly IEventRepository _eventRepository;
@@ -22,10 +24,10 @@ namespace Application.Events.Command
             _eventRepository = eventRepository;
         }
 
-        public async Task<string> Handle(CreateEventCommand request, CancellationToken cancellationToken)
+        public async Task<EventDTO> Handle(CreateEventCommand request, CancellationToken cancellationToken)
         {
 
-            var events = new EventDTO
+            var events = new Event
             {
                 Name = request.Name,
                 Description = request.Description,
@@ -37,7 +39,7 @@ namespace Application.Events.Command
 
             await _eventRepository.Add(events);
 
-            return $"Evento creado con éxito: {events.Name}, ID: {events.EventId}";
+            return new EventDTO();
         }
     }
 }

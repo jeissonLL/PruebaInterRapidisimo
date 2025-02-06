@@ -1,11 +1,7 @@
-﻿using Domain.Entities;
-using Infraestructure.Persistence;
+﻿using Application.DTO;
+using Application.Services.Interfaces;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Domain.Entities;
 
 namespace Application.Users.Command
 {
@@ -13,18 +9,18 @@ namespace Application.Users.Command
         string Name,
         string Email,
         string Password,
-        DateTime RegistrationDate = default) : IRequest<string>;
+        DateTime RegistrationDate = default) : IRequest<UserDTO>;
 
-    public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, string>
+    public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, UserDTO>
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IUserRepository _userRepository;
 
-        public CreateUserCommandHandler(ApplicationDbContext context)
+        public CreateUserCommandHandler(IUserRepository userRepository)
         {
-            _context = context;
+            _userRepository = userRepository;
         }
 
-        public async Task<string> Handle(CreateUserCommand request, CancellationToken cancellationToken)
+        public async Task<UserDTO> Handle(CreateUserCommand request, CancellationToken cancellationToken)
         {
             var user = new User
             {
@@ -33,10 +29,9 @@ namespace Application.Users.Command
                 Password = request.Password
             };
 
-            _context.Add(user);
-            await _context.SaveChangesAsync(cancellationToken);
+            await _userRepository.AddUser(user);
 
-            return user?.ToString() ?? string.Empty;
+            return new UserDTO();
         }
     }
 }

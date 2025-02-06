@@ -1,76 +1,72 @@
 ﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
-using Xunit;
-using Moq;
-using AutoMapper;
-using Microsoft.EntityFrameworkCore;
 using Application.Services;
-using Application.DTO;
-using Infraestructure.Persistence;
 using Domain.Entities;
-using Microsoft.EntityFrameworkCore.Diagnostics;
-using Microsoft.Extensions.Logging;
+using Infraestructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+using Xunit;
 
 public class EventRepositoryTests
 {
-    private readonly ApplicationDbContext _dbContext;
-    private readonly Mock<IMapper> _mapperMock;
     private readonly EventRepository _eventRepository;
+    private readonly ApplicationDbContext _dbContext;
 
     public EventRepositoryTests()
     {
-        // Configurar la base de datos en memoria
         var options = new DbContextOptionsBuilder<ApplicationDbContext>()
             .UseInMemoryDatabase(databaseName: "TestDatabase")
             .Options;
 
         _dbContext = new ApplicationDbContext(options);
-
-        // Crear un mock de AutoMapper
-        _mapperMock = new Mock<IMapper>();
-
-        // Inicializar el repositorio con la BD en memoria y el mock de AutoMapper
-        _eventRepository = new EventRepository(_dbContext, _mapperMock.Object);
+        _eventRepository = new EventRepository(_dbContext);
     }
 
     [Fact]
-    public async Task Add_ShouldAddEventSuccessfully()
+    public async Task Add_Should_Add_Event_And_Return_Entity()
     {
-        // Arrange: Datos de prueba
-        var eventDto = new EventDTO { 
-            Name = "Test Event", 
-            Description = "Test Descrption", 
-            DateTime = DateTime.UtcNow, 
-            Location = "Test Location", 
-            MaxCapacity = 500, 
-            CreatedByUserId = 1011 
+        // Arrange
+        var newEvent = new Event
+        {
+            Name = "Tech Conference",
+            Description = "Evento sobre tecnología",
+            DateTime = DateTime.UtcNow,
+            Location = "Bogotá, Colombia",
+            MaxCapacity = 1000,
+            CreatedByUserId = 1
         };
 
-        var eventEntity = new Event { 
-            EventId = 1, 
-            Name = "Test Event", 
-            Description = "Test Descrption", 
-            DateTime = DateTime.UtcNow, 
-            Location = "Test Location", 
-            MaxCapacity = 500, 
-            CreatedByUserId = 1011 
-        };
+        // Act
+        var result = await _eventRepository.Add(newEvent);
 
-        // Configurar el mock de AutoMapper
-        _mapperMock.Setup(m => m.Map<Event>(eventDto)).Returns(eventEntity);
-        _mapperMock.Setup(m => m.Map<EventDTO>(eventEntity)).Returns(eventDto);
-
-        // Act: Llamar al método Add
-        var result = await _eventRepository.Add(eventDto);
-
-        // Assert: Validar resultados
+        // Assert
         Assert.NotNull(result);
-        Assert.Equal(eventDto.Name, result.Name);
-        Assert.Equal(eventDto.Location, result.Location);
+        Assert.Equal(newEvent.Name, result.Name);
+        Assert.Equal(newEvent.Description, result.Description);
+        Assert.Equal(newEvent.MaxCapacity, result.MaxCapacity);
 
-        // Verificar que el evento fue guardado en la BD
-        var savedEvent = await _dbContext.Events.FirstOrDefaultAsync(e => e.EventId == eventEntity.EventId);
-        Assert.NotNull(savedEvent);
-        Assert.Equal(eventEntity.Name, savedEvent.Name);
+        var eventInDb = await _dbContext.Events.FindAsync(result.EventId);
+        Assert.NotNull(eventInDb);
+    }
+
+    [Fact]
+    public async Task Add_Should_Throw_Exception_When_SaveChanges_Fails()
+    {
+        // Arrange
+        var newEvent = new Event
+        {
+            Name = "Tech Conference",
+            Description = "Evento sobre tecnología",
+            DateTime = DateTime.UtcNow,
+            Location = "Bogotá, Colombia",
+            MaxCapacity = 1000,
+            CreatedByUserId = 1
+        };
+
+        _dbContext.Dispose(); // Simula un error en SaveChangesAsync
+
+        // Act & Assert
+        var exception = await Assert.ThrowsAsync<Exception>(() => _eventRepository.Add(newEvent));
+        Assert.Contains("Error al guardar el evento", exception.Message);
     }
 }

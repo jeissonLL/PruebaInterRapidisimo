@@ -311,3 +311,4 @@ C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\
 C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\Presentation.pdb
 C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\Presentation.genruntimeconfig.cache
 C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\ref\Presentation.dll
+C:\repositories\PruebaInterRapidisimo\EventManagement\EventManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

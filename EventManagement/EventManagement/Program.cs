@@ -28,8 +28,11 @@ var connectionString = builder.Configuration.GetConnectionString("Conexion");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString!));
 
-// Register MediatR and scan for handlers in the assembly
+// dependency inyection
 builder.Services.AddScoped<IEventRepository, EventRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+// Register MediatR and scan for handlers in the assembly
 builder.Services.AddMediatR(typeof(CreateEventCommand).Assembly);
 builder.Services.AddMediatR(typeof(CreateUserCommand).Assembly);
 builder.Services.AddMediatR(typeof(CreateEventUserCommand).Assembly);

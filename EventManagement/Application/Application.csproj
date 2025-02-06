@@ -27,7 +27,6 @@
 
   <ItemGroup>
     <Folder Include="EventUser\Query\" />
-    <Folder Include="Users\Querys\" />
   </ItemGroup>
 
 </Project>
