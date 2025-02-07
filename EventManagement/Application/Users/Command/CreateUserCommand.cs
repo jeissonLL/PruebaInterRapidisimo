@@ -26,12 +26,20 @@ namespace Application.Users.Command
             {
                 Name = request.Name,
                 Email = request.Email,
-                Password = request.Password
+                Password = request.Password,
+                RegistrationDate = request.RegistrationDate
             };
 
             await _userRepository.AddUser(user);
 
-            return new UserDTO();
+            return new UserDTO
+            {
+                UserId = user.UserId,
+                Name = user.Name, 
+                Email = user.Email,
+                Password = user.Password,
+                RegistrationDate = user.RegistrationDate
+            };
         }
     }
 }

@@ -27,7 +27,18 @@ namespace Application.Users.Querys
             {  
                 var user = await _userRepository.Getid(request.UserId);
 
-                return new UserDTO();
+                if (user == null) 
+                {
+                    throw new Exception("Usuario no encontrado");
+                }
+
+                return new UserDTO
+                {
+                    UserId = user.UserId,
+                    Name = user.Name,
+                    Email = user.Email,
+                    RegistrationDate = user.RegistrationDate,
+                };
             }
             catch (Exception ex) 
             {
