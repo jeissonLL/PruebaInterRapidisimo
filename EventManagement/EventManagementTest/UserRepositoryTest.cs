@@ -10,6 +10,10 @@ public class UserRepositoryTests
     private readonly ApplicationDbContext _context;
     private readonly UserRepository _userRepository;
 
+    const int _UserId = 1;
+    const string _Name = "John Doe";
+    const string _Email = "john@example.com";
+
     public UserRepositoryTests()
     {
         // 💻 Configuración de la base de datos en memoria
@@ -27,9 +31,9 @@ public class UserRepositoryTests
         // 📝🧠 Agregar datos iniciales
         _context.Users.Add(new User 
         { 
-            UserId = 1, 
-            Name = "John Doe", 
-            Email = "john@example.com", 
+            UserId = _UserId, 
+            Name = _Name, 
+            Email = _Email, 
             RegistrationDate = DateTime.UtcNow 
         });
         _context.SaveChanges();
@@ -41,8 +45,8 @@ public class UserRepositoryTests
         // Arrange
         var newUser = new User
         {
-            Name = "Jane Doe",
-            Email = "jane@example.com",
+            Name = _Name,
+            Email = _Email,
             RegistrationDate = DateTime.UtcNow
         };
 
@@ -53,8 +57,8 @@ public class UserRepositoryTests
         // Assert
         Assert.NotNull(userInDb);
         Assert.Equal(newUser.UserId, result.UserId);
-        Assert.Equal("Jane Doe", result.Name);
-        Assert.Equal("jane@example.com", result.Email);
+        Assert.Equal(_Name, result.Name);
+        Assert.Equal(_Email, result.Email);
     }
 
     [Fact]
@@ -66,8 +70,8 @@ public class UserRepositoryTests
         // Assert
         Assert.NotNull(result);
         Assert.Equal(1, result.UserId);
-        Assert.Equal("John Doe", result.Name);
-        Assert.Equal("john@example.com", result.Email);
+        Assert.Equal(_Name, result.Name);
+        Assert.Equal(_Email, result.Email);
     }
 
     [Fact]

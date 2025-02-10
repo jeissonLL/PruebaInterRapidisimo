@@ -1,16 +1,18 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using Application.Services;
+﻿using Application.Services;
 using Domain.Entities;
 using Infraestructure.Persistence;
 using Microsoft.EntityFrameworkCore;
-using Xunit;
 
 public class EventRepositoryTests
 {
     private readonly EventRepository _eventRepository;
     private readonly ApplicationDbContext _dbContext;
+
+    const string _Name = "Tech Conference";
+    const string _Description = "Evento sobre tecnología";
+    const string _Location = "Bogotá, Colombia";
+    const int _MaxCapacity = 1000;
+    const int _CreatedByUserId = 1;
 
     public EventRepositoryTests()
     {
@@ -28,12 +30,12 @@ public class EventRepositoryTests
         // Arrange
         var newEvent = new Event
         {
-            Name = "Tech Conference",
-            Description = "Evento sobre tecnología",
+            Name = _Name,
+            Description = _Description,
             DateTime = DateTime.UtcNow,
-            Location = "Bogotá, Colombia",
-            MaxCapacity = 1000,
-            CreatedByUserId = 1
+            Location = _Location,
+            MaxCapacity = _MaxCapacity,
+            CreatedByUserId = _CreatedByUserId
         };
 
         // Act
@@ -55,12 +57,12 @@ public class EventRepositoryTests
         // Arrange
         var newEvent = new Event
         {
-            Name = "Tech Conference",
-            Description = "Evento sobre tecnología",
+            Name = _Name,
+            Description = _Description,
             DateTime = DateTime.UtcNow,
-            Location = "Bogotá, Colombia",
-            MaxCapacity = 1000,
-            CreatedByUserId = 1
+            Location = _Location,
+            MaxCapacity = _MaxCapacity,
+            CreatedByUserId = _CreatedByUserId
         };
 
         _dbContext.Dispose(); // Simula un error en SaveChangesAsync
