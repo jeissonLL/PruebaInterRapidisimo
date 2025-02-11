@@ -1,0 +1,42 @@
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Lista de Eventos</h2>
+  
+    <!-- Barra de búsqueda -->
+    <input
+      type="text"
+      class="form-control mb-3"
+      placeholder="Buscar evento..."
+      [(ngModel)]="searchTerm"
+      (input)="search()"
+    />
+  
+    <!-- Tabla de eventos -->
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead class="table-dark">
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Fecha</th>
+            <th>Ubicación</th>
+            <th>Capacidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let event of filteredEvents | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
+            <td>{{ event.eventId }}</td>
+            <td>{{ event.name }}</td>
+            <td>{{ event.description }}</td>
+            <td>{{ event.dateTime }}</td>
+            <td>{{ event.location }}</td>
+            <td>{{ event.MaxCapacity }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <!-- Paginación -->
+    <pagination-controls (pageChange)="currentPage = $event"></pagination-controls>
+  </div>
+  

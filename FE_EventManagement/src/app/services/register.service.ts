@@ -8,7 +8,7 @@ import { register } from '../interfaces/register';
 })
 export class RegisterService {
 
-  private apiUrl = 'http://localhost:5029/api/User'; // Ajusta la URL de tu API
+  private apiUrl = 'http://localhost:5029/api/User';
 
   constructor(private http: HttpClient) {}
 

@@ -1,0 +1,9 @@
+.table {
+    text-align: center;
+  }
+  
+  input {
+    max-width: 300px;
+    margin: auto;
+    display: block;
+  }

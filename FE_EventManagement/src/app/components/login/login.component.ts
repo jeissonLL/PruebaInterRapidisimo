@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
 import { RouterModule } from '@angular/router';
 import { login } from '../../interfaces/login';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -21,7 +22,8 @@ export class LoginComponent {
 
   constructor(
     private authService: AuthService,
-    private toarts: ToastrService
+    private toarts: ToastrService,
+    private router: Router
   ) {}
 
   login() {
@@ -35,8 +37,11 @@ export class LoginComponent {
       email: this.auth.email, 
       password: this.auth.password 
     }).subscribe({
-      next: () => this.toarts.success('login exitoso'),
-      error: () => this.toarts.error('Credenciales invalidas'),
+        next: () => {this.toarts.success('login exitoso'),
+        this.router.navigate(['/dashboard'])
+      },
+        error: () => {this.toarts.error('Credenciales invalidas')
+      },
     });
   }
 
