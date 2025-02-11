@@ -28,7 +28,7 @@
             <td>{{ event.eventId }}</td>
             <td>{{ event.name }}</td>
             <td>{{ event.description }}</td>
-            <td>{{ event.dateTime }}</td>
+            <td>{{ event.dateTime | date:'dd/MM/yyyy' }}</td>
             <td>{{ event.location }}</td>
             <td>{{ event.maxCapacity }}</td>
           </tr>

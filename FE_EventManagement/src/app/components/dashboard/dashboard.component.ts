@@ -4,12 +4,13 @@ import { event } from '../../interfaces/event';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { NgFor } from '@angular/common'; 
+import { NgFor } from '@angular/common';
+import { CommonModule } from '@angular/common'
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [FormsModule, RouterModule, NgxPaginationModule, NgFor],
+  imports: [FormsModule, RouterModule, NgxPaginationModule, NgFor, CommonModule],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
