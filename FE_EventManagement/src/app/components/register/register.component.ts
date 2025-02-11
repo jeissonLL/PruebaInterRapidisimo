@@ -4,6 +4,7 @@ import { register } from '../../interfaces/register';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -21,7 +22,8 @@ export class RegisterComponent {
 
   constructor(
     private registerService: RegisterService,
-    private toastr: ToastrService // Corregido "toarts" → "toastr"
+    private toastr: ToastrService,
+    private router: Router
   ) {}
 
   createUser() {
@@ -32,6 +34,7 @@ export class RegisterComponent {
     this.registerService.createUser(this.user).subscribe({
       next: () => { 
         this.toastr.success('Usuario creado con éxito');
+        this.router.navigate(['/login']);
       },
       error: () => { 
         this.toastr.error('El usuario no ha sido creado');
