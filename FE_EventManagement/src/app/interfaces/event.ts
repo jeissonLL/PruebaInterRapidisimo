@@ -4,6 +4,6 @@ export interface event {
     description: string;
     dateTime: Date;
     location: string;
-    MaxCapacity: number;
-    CreateByUserId: number;
+    maxCapacity: number;
+    createByUserId: number;
 }
