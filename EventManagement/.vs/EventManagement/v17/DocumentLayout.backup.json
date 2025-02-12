@@ -3,84 +3,88 @@
   "WorkspaceRootPath": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|solutionrelative:eventmanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\login\\command\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\login\\command\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AB20D47-83B6-4392-BD9F-B0C9DF430DC2}|Domain\\Domain.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AB20D47-83B6-4392-BD9F-B0C9DF430DC2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|solutionrelative:eventmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagementtest\\eventrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|solutionrelative:eventmanagementtest\\eventrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagementtest\\userrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|solutionrelative:eventmanagementtest\\userrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\users\\querys\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\users\\querys\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\services\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\services\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\events\\command\\updateeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\events\\command\\updateeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\events\\command\\deleteeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\events\\command\\deleteeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|solutionrelative:eventmanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\events\\command\\createeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\events\\command\\createeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\users\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\users\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|solutionrelative:eventmanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagementtest\\eventmanagementtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|solutionrelative:eventmanagementtest\\eventmanagementtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0AB20D47-83B6-4392-BD9F-B0C9DF430DC2}|Domain\\Domain.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB20D47-83B6-4392-BD9F-B0C9DF430DC2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagementtest\\userrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|solutionrelative:eventmanagementtest\\userrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|solutionrelative:eventmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\events\\query\\geteventlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\events\\query\\geteventlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\users\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\users\\command\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{380C346C-E340-4068-A1F1-ED3768B4D41F}|EventManagement\\Presentation.csproj|solutionrelative:eventmanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\services\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\services\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\login\\command\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\login\\command\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagementtest\\eventrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|solutionrelative:eventmanagementtest\\eventrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\users\\querys\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\users\\querys\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\eventmanagementtest\\eventmanagementtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B5332C8D-571E-4324-87F8-DE1814B2E029}|EventManagementTest\\EventManagementTest.csproj|solutionrelative:eventmanagementtest\\eventmanagementtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\services\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\services\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\events\\command\\updateeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\events\\command\\updateeventcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AB20D47-83B6-4392-BD9F-B0C9DF430DC2}|Domain\\Domain.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\domain\\entities\\eventuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AB20D47-83B6-4392-BD9F-B0C9DF430DC2}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\eventuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\application\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E2300F9-7236-4CE5-BD36-C4D51B0D6409}|Application\\Application.csproj|solutionrelative:application\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AB20D47-83B6-4392-BD9F-B0C9DF430DC2}|Domain\\Domain.csproj|c:\\repositories\\pruebainterrapidisimo\\eventmanagement\\domain\\entities\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -132,8 +136,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 266,
-          "SelectedChildIndex": 11,
+          "DockedHeight": 296,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -144,99 +148,207 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\DTO\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTO\\UserDTO.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\DTO\\UserDTO.cs",
-              "RelativeToolTip": "Application\\DTO\\UserDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CreateEventCommand.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Command\\CreateEventCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Events\\Command\\CreateEventCommand.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Command\\CreateEventCommand.cs",
+              "RelativeToolTip": "Application\\Events\\Command\\CreateEventCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T20:00:23.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventRepositoryTests.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\EventRepositoryTests.cs",
-              "RelativeDocumentMoniker": "EventManagementTest\\EventRepositoryTests.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\EventRepositoryTests.cs",
-              "RelativeToolTip": "EventManagementTest\\EventRepositoryTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T19:59:26.784Z",
+              "WhenOpened": "2025-02-12T15:08:04.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T07:33:18.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EventManagementTest.csproj",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\EventManagementTest.csproj",
-              "RelativeDocumentMoniker": "EventManagementTest\\EventManagementTest.csproj",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\EventManagementTest.csproj",
-              "RelativeToolTip": "EventManagementTest\\EventManagementTest.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-05T19:56:31.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "CreateUserCommand.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Users\\Command\\CreateUserCommand.cs",
               "RelativeDocumentMoniker": "Application\\Users\\Command\\CreateUserCommand.cs",
               "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Users\\Command\\CreateUserCommand.cs",
               "RelativeToolTip": "Application\\Users\\Command\\CreateUserCommand.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T07:33:24.417Z"
+              "WhenOpened": "2025-01-16T07:33:24.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "EventManagement\\Controllers\\UserController.cs",
               "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Controllers\\UserController.cs",
               "RelativeToolTip": "EventManagement\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T14:32:00.832Z"
+              "WhenOpened": "2025-02-06T14:32:00.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EventManagement\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EventManagement\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T07:57:26.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T07:00:34.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepositoryTest.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\UserRepositoryTest.cs",
+              "RelativeDocumentMoniker": "EventManagementTest\\UserRepositoryTest.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\UserRepositoryTest.cs",
+              "RelativeToolTip": "EventManagementTest\\UserRepositoryTest.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwB8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:58:06.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Program.cs",
               "RelativeDocumentMoniker": "EventManagement\\Program.cs",
               "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Program.cs",
               "RelativeToolTip": "EventManagement\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T07:25:16.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "DeleteEventCommand.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Command\\DeleteEventCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Events\\Command\\DeleteEventCommand.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Command\\DeleteEventCommand.cs",
+              "RelativeToolTip": "Application\\Events\\Command\\DeleteEventCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:13:15.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateEventCommand.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Command\\UpdateEventCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Events\\Command\\UpdateEventCommand.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Command\\UpdateEventCommand.cs",
+              "RelativeToolTip": "Application\\Events\\Command\\UpdateEventCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:27:21.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetEventListQuery.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Query\\GetEventListQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Events\\Query\\GetEventListQuery.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Query\\GetEventListQuery.cs",
+              "RelativeToolTip": "Application\\Events\\Query\\GetEventListQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:53:31.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T20:00:23.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventDTO.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\DTO\\EventDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\EventDTO.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\DTO\\EventDTO.cs",
+              "RelativeToolTip": "Application\\DTO\\EventDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:50:16.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T07:33:18.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Services\\Interfaces\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Interfaces\\IEventRepository.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Services\\Interfaces\\IEventRepository.cs",
+              "RelativeToolTip": "Application\\Services\\Interfaces\\IEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T19:50:38.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Services\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserRepository.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Services\\UserRepository.cs",
+              "RelativeToolTip": "Application\\Services\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T13:38:58.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Login\\Command\\LoginCommand.cs",
               "RelativeDocumentMoniker": "Application\\Login\\Command\\LoginCommand.cs",
@@ -249,45 +361,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "EventManagement\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "EventManagement\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T07:57:26.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Mappings\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Application\\Mappings\\MappingProfile.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Mappings\\MappingProfile.cs",
-              "RelativeToolTip": "Application\\Mappings\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T07:00:34.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IEventRepository.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Services\\Interfaces\\IEventRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\Interfaces\\IEventRepository.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Services\\Interfaces\\IEventRepository.cs",
-              "RelativeToolTip": "Application\\Services\\Interfaces\\IEventRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T19:50:38.103Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "EventManagementTest.csproj",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\EventManagementTest.csproj",
+              "RelativeDocumentMoniker": "EventManagementTest\\EventManagementTest.csproj",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\EventManagementTest.csproj",
+              "RelativeToolTip": "EventManagementTest\\EventManagementTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-05T19:56:31.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EventRepositoryTests.cs",
+              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\EventRepositoryTests.cs",
+              "RelativeDocumentMoniker": "EventManagementTest\\EventRepositoryTests.cs",
+              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\EventRepositoryTests.cs",
+              "RelativeToolTip": "EventManagementTest\\EventRepositoryTests.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T19:59:26.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "EventUser.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Entities\\EventUser.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\EventUser.cs",
@@ -299,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "GetUserByIdQuery.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Users\\Querys\\GetUserByIdQuery.cs",
               "RelativeDocumentMoniker": "Application\\Users\\Querys\\GetUserByIdQuery.cs",
@@ -311,79 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRepositoryTest.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\UserRepositoryTest.cs",
-              "RelativeDocumentMoniker": "EventManagementTest\\UserRepositoryTest.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagementTest\\UserRepositoryTest.cs",
-              "RelativeToolTip": "EventManagementTest\\UserRepositoryTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T14:58:06.379Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "EventDTO.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\DTO\\EventDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTO\\EventDTO.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\DTO\\EventDTO.cs",
-              "RelativeToolTip": "Application\\DTO\\EventDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T06:50:16.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DeleteEventCommand.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Command\\DeleteEventCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Events\\Command\\DeleteEventCommand.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Command\\DeleteEventCommand.cs",
-              "RelativeToolTip": "Application\\Events\\Command\\DeleteEventCommand.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA3wAYAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T06:13:15.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Services\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\UserRepository.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Services\\UserRepository.cs",
-              "RelativeToolTip": "Application\\Services\\UserRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T13:38:58.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UpdateEventCommand.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Command\\UpdateEventCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Events\\Command\\UpdateEventCommand.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Command\\UpdateEventCommand.cs",
-              "RelativeToolTip": "Application\\Events\\Command\\UpdateEventCommand.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T06:27:21.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetEventListQuery.cs",
-              "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Query\\GetEventListQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Events\\Query\\GetEventListQuery.cs",
-              "ToolTip": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Events\\Query\\GetEventListQuery.cs",
-              "RelativeToolTip": "Application\\Events\\Query\\GetEventListQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T06:53:31.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Services\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Application\\Services\\Interfaces\\IUserRepository.cs",
@@ -395,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Domain\\Entities\\Event.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Event.cs",
@@ -407,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CreateEventUserCommand.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\EventUser\\Command\\CreateEventUserCommand.cs",
               "RelativeDocumentMoniker": "Application\\EventUser\\Command\\CreateEventUserCommand.cs",
@@ -419,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "EventUserController.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\Controllers\\EventUserController.cs",
               "RelativeDocumentMoniker": "EventManagement\\Controllers\\EventUserController.cs",
@@ -431,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Persistence\\ApplicationDbContext.cs",
@@ -443,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ApplicationDbContextFactory.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Persistence\\ApplicationDbContextFactory.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Persistence\\ApplicationDbContextFactory.cs",
@@ -455,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\EventManagement\\appsettings.json",
               "RelativeDocumentMoniker": "EventManagement\\appsettings.json",
@@ -467,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Infraestructure.csproj",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Infraestructure.csproj",
               "RelativeDocumentMoniker": "Infraestructure\\Infraestructure.csproj",
@@ -479,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Application.csproj",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -491,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "20250131173635_initial.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Migrations\\20250131173635_initial.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Migrations\\20250131173635_initial.cs",
@@ -503,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\repositories\\PruebaInterRapidisimo\\EventManagement\\Infraestructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Infraestructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -515,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "20250115072607_initial.cs",
               "DocumentMoniker": "C:\\EventManagement\\Infraestructure\\Migrations\\20250115072607_initial.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\EventManagement\\Infraestructure\\Migrations\\20250115072607_initial.cs",
@@ -527,9 +554,13 @@
           ]
         },
         {
-          "DockedHeight": 134,
+          "DockedHeight": 104,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"

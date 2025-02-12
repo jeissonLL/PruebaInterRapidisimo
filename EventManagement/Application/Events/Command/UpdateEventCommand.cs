@@ -14,21 +14,15 @@ namespace Application.Events.Command
     {
         private readonly ApplicationDbContext _context;
 
-        public UpdateEventCommandHandle(ApplicationDbContext context)
-        {
+        public UpdateEventCommandHandle(ApplicationDbContext context) =>
             _context = context;
-        }
 
         public async Task<string> Handle(UpdateEventCommand request, CancellationToken ct)
         {
             var updateBooking = await _context.Events
-                .FirstOrDefaultAsync(c => c.EventId == request.EventId, ct);
-
-            if (updateBooking == null)
-            {
+                .FirstOrDefaultAsync(c => c.EventId == request.EventId, ct) ?? 
                 throw new KeyNotFoundException($"El evento con ID {request.EventId} no encontrado.");
-            }
-
+  
             updateBooking.MaxCapacity = request.MaxCapacity;
             updateBooking.DateTime = request.DateTime;
             updateBooking.Location= request.Location;
